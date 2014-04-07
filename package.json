@@ -1,0 +1,50 @@
+{
+  "name": "sound-bytes",
+  "version": "0.3.0",
+  "description": "Streaming audio File metadata parser",
+  "main": "sound-bytes.js",
+  "scripts": {
+    "test": "mocha ./tests/*.js -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theporchrat/sound-bytes"
+  },
+  "keywords": [
+    "audio",
+    "parser",
+    "mp4",
+    "asf",
+    "wma",
+    "flac",
+    "ogg",
+    "mp3",
+    "id3",
+    "metadata",
+    "tags",
+    "vorbis",
+    "music",
+    "sound"
+  ],
+  "author": "Jason Quense @theprchrat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theporchrat/sound-bytes/issues"
+  },
+  "homepage": "https://github.com/theporchrat/sound-bytes",
+  "devDependencies": {
+    "sinon-chai": "^2.5.0",
+    "chai": "^1.9.1",
+    "sinon": "^1.9.1",
+    "mocha": "^1.18.2"
+  },
+  "dependencies": {
+    "id3v1-parser": "^0.3.2",
+    "asf-parser": "^0.3.0",
+    "id3v2-parser": "^0.3.0",
+    "flac-parser": "^0.3.1",
+    "ogg-parser": "^0.3.1",
+    "mp4-parser": "^0.3.0",
+    "mpeg-frame-parser": "^0.3.1"
+  }
+}
